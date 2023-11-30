@@ -1,24 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React from 'react'
 
 const App = () => {
-  const [data, setData] = useState(null);
-  const API = 'https://fakestoreapi.com/products/1';
+  return (
+    <div>App</div>
+  )
+}
 
-  const response = async () => {
-    try {
-      const result = await axios.get('https://fakestoreapi.com/products/1');
-      console.log(result.data);
-      setData(result);
-    } catch (error) {
-      console.log(error);
-    }
-
-    useEffect(() => {
-      response();
-    }, []);
-  };
-  return <div>App</div>;
-};
-
-export default App;
+export default App
