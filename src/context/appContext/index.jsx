@@ -20,6 +20,7 @@ function useAppContext() {
 
   const [state, dispatch] = context;
   const appContextAction = contextActions(dispatch);
+  return {state,appContextAction}
 }
 
 export { AppContextProvider, useAppContext };

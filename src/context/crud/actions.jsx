@@ -32,7 +32,7 @@ const contextActions = (dispatch) => {
     },
 
     panel: {
-      ope: () => {
+      open: () => {
         dispatch({ type: actionTypes.OPEN_PANEL });
       },
       close: () => {
