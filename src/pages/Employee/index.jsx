@@ -85,6 +85,10 @@ export default function Employee() {
       dataIndex: 'address',
     },
     {
+      title: translate('state'),
+      dataIndex: 'state',
+    },
+    {
       title: translate('Phone'),
       dataIndex: 'phone',
     },
