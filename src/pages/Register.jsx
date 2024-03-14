@@ -11,10 +11,12 @@ const { Title } = Typography;
 const RegisterPage = () => {
   const translate = useLanguage();
   const onFinish = () => {};
-  
-  return <>
-  <
-  </>;
+
+  return (
+    <>
+      <AuthLayout sideContent={<SideContent />}></AuthLayout>
+    </>
+  );
 };
 
 export default RegisterPage;
