@@ -127,7 +127,23 @@ export default function AppRouter() {
       element: <PaymentMode />,
     },
     {
-        
+      path: '/taxes',
+      element: <Taxes />,
+    },
+    {
+      path: '/email',
+      element: <Email />,
+    },
+    {
+      path: '/email/read/:id',
+      element: <EmailRead />,
+    },
+    {
+      path: '/email/update/:id',
+      element: <EmailUpdate />,
+    },
+    {
+        path:'/setting'
     }
   ]);
 }
