@@ -87,7 +87,24 @@ export default function AppRouter() {
       element: <Quote />,
     },
     {
-        
+      path: '/quote/create',
+      element: <QuoteCreate />,
+    },
+    {
+      path: '/quote/read/:id',
+      element: <QuoteRead />,
+    },
+    {
+      path: '/quote/update/:id',
+      element: <QuoteUpdate />,
+    },
+    {
+      path: '/payment',
+      element: <Payment />,
+    },
+    {
+        path:'/payment/read/:id',
+        element:<pa
     }
   ]);
 }
