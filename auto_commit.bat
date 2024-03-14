@@ -9,7 +9,7 @@ REM Push changes to the remote repository
 git push origin main
 
 REM Wait for a short duration before checking for changes again
-timeout /t 10 /nobreak >nul
+timeout /t 120 /nobreak >nul
 
 REM Repeat the loop to continuously monitor for changes
 goto monitor_loop
