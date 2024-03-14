@@ -21,7 +21,22 @@ const RegisterPage = () => {
             maxWidth: '440px',
             margin: '0 auto',
           }}
-        ></Content>
+        >
+          <Col
+          xs={{span:24}}
+          sm={{span:24}}
+          md={{span:0}}
+          span={0}
+          >
+            <img
+            src={logo}
+            alt='logo'
+            style={{
+              margin:'-70px'
+            }}
+            />
+          </Col>
+        </Content>
       </AuthLayout>
     </>
   );
