@@ -16,7 +16,7 @@ const RegisterPage = () => {
     <>
       <AuthLayout sideContent={<SideContent />}>
         <Conent
-        style
+        
         >
 
         </Conent>
