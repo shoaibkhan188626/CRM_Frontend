@@ -31,4 +31,6 @@ const EmailUpdate = lazy(() => import('@/pages/Email/EmailUpdate'));
 const AdvancedSettings = lazy(() => import('@/pages/AdvancedSettings'));
 const Profile=lazy(()=>import('@/pages/Profile'))
 const Lead = lazy(()=>import('@/pages/Lead/index'))
-const Offer = lazy(()=>import)
+const Offer = lazy(()=>import('@/pages/Offer/index'))
+const OfferCreate=lazy(()=>import ('@/pages/Offer/OfferCreate'))
+const OfferRead=lazy(()=>import('@/'))
