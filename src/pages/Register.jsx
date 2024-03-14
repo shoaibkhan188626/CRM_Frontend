@@ -6,7 +6,7 @@ import SideContent from '@/components/SideContent';
 import useLanguage from '@/locale/useLanguage';
 import logo from '@/style/images/logo.png';
 
-const { Conent } = Layout;
+const { Content } = Layout;
 const { Title } = Typography;
 const RegisterPage = () => {
   const translate = useLanguage();
@@ -14,7 +14,13 @@ const RegisterPage = () => {
 
   return (
     <>
-      <AuthLayout sideContent={<SideContent />}></AuthLayout>
+      <AuthLayout sideContent={<SideContent />}>
+        <Content
+        
+        >
+
+        </Content>
+      </AuthLayout>
     </>
   );
 };
