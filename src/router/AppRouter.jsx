@@ -159,11 +159,21 @@ export default function AppRouter() {
       element: <Lead />,
     },
     {
-        path:'/offer/create',
-        element:<OfferCreate/>
+      path: '/offer/create',
+      element: <OfferCreate />,
     },
     {
-        path:'/offer/read/:id'
-    }
+      path: '/offer/read/:id',
+      element: <OfferRead />,
+    },
+    {
+      path: '/offer/update/:id',
+      element: <OfferUpdate />,
+    },
+    {
+      path: '*',
+      element: <NotFound />,
+    },
   ]);
+  return element;
 }
