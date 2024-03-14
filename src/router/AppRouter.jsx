@@ -9,4 +9,8 @@ const Customer = lazy(() => import('@/pages/Customer'));
 const Inventory = lazy(() => import('@/pages/Inventory'));
 const Order = lazy(() => import('@/pages/Order'));
 const Invoice = lazy(() => import('@/pages/Invoice'));
-const InvoiceCreate=lazy(()=>import('@/pages/Invo'))
+const InvoiceCreate = lazy(() => import('@/pages/Invoice/InvoiceCreate'));
+const InvoiceRead = lazy(() => import('@/pages/Invoice/InvoiceRead'));
+const InvoiceUpdate = lazy(() => import('@/pages/Invoice/InvoiceUpdate'));
+const InvoiceRecordPayment = lazy(() => import('@/pages/Invoice/InvoiceRecordPayment'));
+const Quote = lazy(()=>import('@/'))
