@@ -28,4 +28,7 @@ const Taxes = lazy(() => import('@/pages/Taxes'));
 const Email = lazy(() => import('@/pages/Email/index'));
 const EmailRead = lazy(() => import('@/pages/Email/EmailRead'));
 const EmailUpdate = lazy(() => import('@/pages/Email/EmailUpdate'));
-const AdvancedSettings=lazy(()=>import('@/'))
+const AdvancedSettings = lazy(() => import('@/pages/AdvancedSettings'));
+const Profile=lazy(()=>import('@/pages/Profile'))
+const Lead = lazy(()=>import('@/pages/Lead/index'))
+const Offer = lazy(()=>import)
