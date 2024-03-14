@@ -36,15 +36,36 @@ const OfferCreate = lazy(() => import('@/pages/Offer/OfferCreate'));
 const OfferRead = lazy(() => import('@/pages/Offer/OfferRead'));
 const OfferUpdate = lazy(() => import('@/pages/Offer/OfferUpdate'));
 
-export default function AppRouter(){
-    let element=useRoutes([
-        {
-            path:'/login',
-            element:<PublicRoute/>
-        },
-        {
-            path:'/logout',
-            element:<
-        }
-    ])
+export default function AppRouter() {
+  let element = useRoutes([
+    {
+      path: '/login',
+      element: <PublicRoute />,
+    },
+    {
+      path: '/logout',
+      element: <Logout />,
+    },
+    {
+      path: '/',
+      element: <Dashboard />,
+    },
+    {
+      path: '/customer',
+      element: <Customer />,
+    },
+    {
+      path: '/inventory',
+      element: <Inventory />,
+    },
+    {
+      path: '/order',
+      element: <Order />,
+    },
+    {
+        path:'/invoice',
+        element:<Invoice/>
+    }
+    
+  ]);
 }
