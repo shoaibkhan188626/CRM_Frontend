@@ -5,8 +5,11 @@ import AuthLayout from '@/layout/AUthLayout';
 import SideContent from '@/components/SideContent';
 import useLanguage from '@/locale/useLanguage';
 import logo from '@/style/images/logo.png';
-const Register = () => {
+
+const { Conent } = Layout;
+const { Title } = Typography;
+const RegisterPage = () => {
   return <div>Register</div>;
 };
 
-export default Register;
+export default RegisterPage;
