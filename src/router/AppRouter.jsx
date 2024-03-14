@@ -63,9 +63,31 @@ export default function AppRouter() {
       element: <Order />,
     },
     {
-        path:'/invoice',
-        element:<Invoice/>
+      path: '/invoice',
+      element: <Invoice />,
+    },
+    {
+      path: '/invoice/create',
+      element: <InvoiceCreate />,
+    },
+    {
+      path: '/invoice/read/:id',
+      element: <InvoiceRead />,
+    },
+    {
+      path: '/invoice/update/:id',
+      element: <InvoiceUpdate />,
+    },
+    {
+      path: '/invoice/pay/:id',
+      element: <InvoiceRecordPayment />,
+    },
+    {
+      path: '/quote',
+      element: <Quote />,
+    },
+    {
+        
     }
-    
   ]);
 }
