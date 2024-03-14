@@ -1,3 +1,6 @@
 import {lazy,Suspense} from 'react'
 import {useSelector} from 'react-redux'
-import {} from '@//red'
+import {} from '@/redux/auth/selector'
+import { AppContextProvider } from '@/context/appContext'
+import PageLoader from '@/components/PageLoader'
+import Localization from '@/locale/Localization'
