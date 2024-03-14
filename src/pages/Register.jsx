@@ -17,7 +17,9 @@ const RegisterPage = () => {
       <AuthLayout sideContent={<SideContent />}>
         <Content
         style={{
-          padding:'200px 30px 30px'
+          padding:'200px 30px 30px',
+          maxWidth:'440px',
+          margin:'0 auto'
         }}
         >
 
