@@ -21,5 +21,5 @@ export default function GeneralSettings() {
     ...Labels,
   };
 
-  return <GeneralSettingsModule />;
+  return <GeneralSettingsModule config={configPage} />;
 }
