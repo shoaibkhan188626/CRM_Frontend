@@ -6,5 +6,5 @@ git add .
 echo "Running the commits now"
 git commit -m "Auto-commit: Changes made on save"
 :: Push changes to the remote repository
-echo "Pushing the"
+echo "Pushing the changes"
 git push origin main
