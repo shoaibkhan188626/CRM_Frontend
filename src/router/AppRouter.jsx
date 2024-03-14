@@ -103,8 +103,31 @@ export default function AppRouter() {
       element: <Payment />,
     },
     {
-        path:'/payment/read/:id',
-        element:<pa
+      path: '/payment/read/:id',
+      element: <PaymentRead />,
+    },
+    {
+      path: '/payment/update/:id',
+      element: <PaymentUpdate />,
+    },
+    {
+      path: '/employee',
+      element: <Employee />,
+    },
+    {
+      path: '/admin',
+      element: <Admin />,
+    },
+    {
+      path: '/settings',
+      element: <Settings />,
+    },
+    {
+      path: '/payment/mode',
+      element: <PaymentMode />,
+    },
+    {
+        
     }
   ]);
 }
