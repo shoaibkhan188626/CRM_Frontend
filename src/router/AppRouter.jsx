@@ -29,8 +29,22 @@ const Email = lazy(() => import('@/pages/Email/index'));
 const EmailRead = lazy(() => import('@/pages/Email/EmailRead'));
 const EmailUpdate = lazy(() => import('@/pages/Email/EmailUpdate'));
 const AdvancedSettings = lazy(() => import('@/pages/AdvancedSettings'));
-const Profile=lazy(()=>import('@/pages/Profile'))
-const Lead = lazy(()=>import('@/pages/Lead/index'))
-const Offer = lazy(()=>import('@/pages/Offer/index'))
-const OfferCreate=lazy(()=>import ('@/pages/Offer/OfferCreate'))
-const OfferRead=lazy(()=>import('@/'))
+const Profile = lazy(() => import('@/pages/Profile'));
+const Lead = lazy(() => import('@/pages/Lead/index'));
+const Offer = lazy(() => import('@/pages/Offer/index'));
+const OfferCreate = lazy(() => import('@/pages/Offer/OfferCreate'));
+const OfferRead = lazy(() => import('@/pages/Offer/OfferRead'));
+const OfferUpdate = lazy(() => import('@/pages/Offer/OfferUpdate'));
+
+export default function AppRouter(){
+    let element=useRoutes([
+        {
+            path:'/login',
+            element:<PublicRoute/>
+        },
+        {
+            path:'/logout',
+            element:<
+        }
+    ])
+}
