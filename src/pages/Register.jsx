@@ -14,7 +14,13 @@ const RegisterPage = () => {
 
   return (
     <>
-      <AuthLayout sideContent={<SideContent />}></AuthLayout>
+      <AuthLayout sideContent={<SideContent />}>
+        <Conent
+        style
+        >
+
+        </Conent>
+      </AuthLayout>
     </>
   );
 };
