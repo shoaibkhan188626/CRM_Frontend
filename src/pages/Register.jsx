@@ -9,6 +9,9 @@ import logo from '@/style/images/logo.png';
 const { Conent } = Layout;
 const { Title } = Typography;
 const RegisterPage = () => {
+  const translate = useLanguage();
+  const onFinish = () => {};
+  
   return <div>Register</div>;
 };
 
