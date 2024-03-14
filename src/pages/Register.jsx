@@ -22,20 +22,28 @@ const RegisterPage = () => {
             margin: '0 auto',
           }}
         >
-          <Col
-          xs={{span:24}}
-          sm={{span:24}}
-          md={{span:0}}
-          span={0}
-          >
+          <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 0 }} span={0}>
             <img
-            src={logo}
-            alt='logo'
-            style={{
-              margin:'-70px'
-            }}
+              src={logo}
+              alt="logo"
+              style={{
+                margin: '-70px auto 40px',
+                display: 'block',
+              }}
             />
+            <div className="space50"></div>
           </Col>
+          <Title level={1}>{translate('Sign up')}</Title>
+          <Divider/>
+          <div className='site-layout-content'>
+            <Form
+            name='sginup'
+            className='login-form'
+            initialValues={{
+              
+            }}
+            ></Form>
+          </div>
         </Content>
       </AuthLayout>
     </>
