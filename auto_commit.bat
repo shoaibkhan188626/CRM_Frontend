@@ -1,10 +1,15 @@
 @echo off
-:: Add all changes
-echo "Changes added to staging area."
+
+:monitor_loop
+REM Add all changes
 git add .
-:: Commit changes with a message
-echo "Running the commits now"
+REM Commit changes with a message
 git commit -m "Auto-commit: Changes made on save"
-:: Push changes to the remote repository
-echo "Pushing the changes"
+REM Push changes to the remote repository
 git push origin main
+
+REM Wait for a short duration before checking for changes again
+timeout /t 10 /nobreak >nul
+
+REM Repeat the loop to continuously monitor for changes
+goto monitor_loop

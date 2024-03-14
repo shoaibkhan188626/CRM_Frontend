@@ -12,7 +12,7 @@ const RegisterPage = () => {
   const translate = useLanguage();
   const onFinish = () => {};
   
-  return <div>Register</div>;
+  return <></>;
 };
 
 export default RegisterPage;
