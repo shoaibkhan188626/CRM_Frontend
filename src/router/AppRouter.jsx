@@ -20,4 +20,8 @@ const QuoteUpdate = lazy(() => import('@/pages/Quote/QuoteUpdate'));
 const Payment = lazy(() => import('@/pages/Payment/index'));
 const PaymentRead = lazy(() => import('@/pages/Payment/PaymentRead'));
 const PaymentUpdate = lazy(() => import('@/pages/Payment/PaymentUpdate'));
+const Employee = lazy(() => import('@/pages/Employee'));
+const Admin = lazy(() => import('@/pages/Admin'));
+const Settings = lazy(() => import('@/pages/Settings/Settings'));
+const PaymentMode = lazy(() => import('@/pages/PaymentMode'));
 const 
