@@ -143,7 +143,27 @@ export default function AppRouter() {
       element: <EmailUpdate />,
     },
     {
-        path:'/setting'
+      path: '/settings/advanced',
+      element: <AdvancedSettings />,
+    },
+    {
+      path: '/profile',
+      element: <Profile />,
+    },
+    {
+      path: '/lead',
+      element: <Lead />,
+    },
+    {
+      path: '/offer',
+      element: <Lead />,
+    },
+    {
+        path:'/offer/create',
+        element:<OfferCreate/>
+    },
+    {
+        path:'/offer/read/:id'
     }
   ]);
 }
