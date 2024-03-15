@@ -33,9 +33,25 @@ export default function RegisterForm() {
           },
         ]}
       >
+        <Input
+          prefix={<MailOutlined className="site-form-item-icon" />}
+          placeholder="Email"
+          type="email"
+          size="large"
+        />
+      </Form.Item>
+
+      <Form.Item
+        name="password"
+        rules={[
+          {
+            required: true,
+          },
+        ]}
+      >
         <Input.Password
           prefix={<LockOutlined className="site-form-item-icon" />}
-          placeholder="password"
+          placeholder="Password"
           size="large"
         />
       </Form.Item>
