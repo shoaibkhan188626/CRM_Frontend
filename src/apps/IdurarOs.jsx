@@ -19,4 +19,15 @@ export default function IdurarOs() {
         </Suspense>
       </Localization>
     );
+  else {
+    return (
+      <Localization>
+        <AppContextProvider>
+          <Suspense fallback={<PageLoader />}>
+            <ErpApp />
+          </Suspense>
+        </AppContextProvider>
+      </Localization>
+    );
+  }
 }
